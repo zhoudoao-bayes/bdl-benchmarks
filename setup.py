@@ -43,7 +43,7 @@ setup(
         "kaggle",
         "tensorflow-gpu==2.0.0-beta0",
         "tfp-nightly",
-        "tensorflow-datasets",
+        "tensorflow-datasets==1.2.0",
     ],
     classifiers=[
         "Development Status :: 3 - Alpha",
