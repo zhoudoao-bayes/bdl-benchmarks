@@ -286,8 +286,8 @@ class DiabeticRetinopathyDiagnosisBecnhmark(Benchmark):
     # Disable GPU for data download, extraction and preparation
     import os
     os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
-    cls._download()
-    # cls._extract()
+    # cls._download()
+    cls._extract()
     # cls._prepare(levels)
 
   @staticmethod
