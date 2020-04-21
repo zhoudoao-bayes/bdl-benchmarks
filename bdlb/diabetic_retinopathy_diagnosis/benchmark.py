@@ -287,8 +287,8 @@ class DiabeticRetinopathyDiagnosisBecnhmark(Benchmark):
     import os
     os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
     cls._download()
-    cls._extract()
-    cls._prepare(levels)
+    # cls._extract()
+    # cls._prepare(levels)
 
   @staticmethod
   def _download():
