@@ -41,7 +41,7 @@ setup(
         "seaborn",
         "scikit-learn",
         "kaggle",
-        "tensorflow-gpu==2.0.0-beta0",
+        "tensorflow-gpu==2.5.3",
         "tfp-nightly",
         "tensorflow-datasets==1.2.0",
     ],
